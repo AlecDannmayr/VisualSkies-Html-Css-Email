@@ -4,21 +4,31 @@
         <title></title>
         <style>
             body {
-                max-width: 700px;
-                margin: 0 auto;
+              max-width: 800px;
+              margin: 0 auto;
+            }
+            header {
+              width: 95%
             }
             #VS-logo {
-                width: 200px;
-                float: left;
-                margin: 2% 0 1% 1%;
+              width: 200px;
+              float: left;
+              margin: 2% 0 1% 1%;
             }
             #callout {
-                float: right;
-                margin: 3% 3% 2% 0;
-                
+              float: right;
+              margin: 3% 3% 2% 0;
             }
             .social {
-                list-style-type: none;
+              float: right;
+              list-style-type: none;
+              margin-top: 8%;
+            }
+            .social li {
+              display: inline-block;
+            }
+            .socialImg {
+                width: 50px;
             }
             .line {
               clear: both;
@@ -27,27 +37,30 @@
               margin: 4% auto;
             }
             .Six-Col {
-                background-color: grey;
+              background-color: grey;
+            }
+            img {
+                max-width: 100%;
             }
         </style>
     </header>
     <body>
         <div id="wrapper">
 <!-- Heading Start -->
-            <heading>
+            <header>
                 <div id="logo"> <!-- Container for Logo -->
                     <img id="VS-logo" src="https://i.ibb.co/QQzQrDZ/VS-Master-Logo-BW.png" alt="VS-Master-Logo-BW">
                 </div>
                 <div id="callout"> <!-- Container for Social Media -->
                     <ul class="social"> <!-- Class for all list elements -->
-                        <li><a href="https://twitter.com/visualskies" target="_blank"><img src="https://i.ibb.co/S5nDsYJ/twitter-1.png" alt="Twitter"/></li>
-                        <li><a href="https://www.facebook.com/visualskies" target="_blank"><img src="https://i.ibb.co/yY5wZtR/facebook.png" alt="Facebook"/></a></li>
-                        <li><a href="https://vimeo.com/visualskies" target="_blank"><img src="https://i.ibb.co/47qxhw6/iconfinder-Rounded-Vimeo-svg-5282550.png" alt="Vimeo"/></a></li>
-                        <li><a href="https://www.linkedin.com/company/visualskies-ltd" target="_blank"><img src="https://i.ibb.co/WDRjLBg/linkedin.png" alt="linkedin"/></a></li>
-                        <li><a href="https://www.instagram.com/visualskies_ltd/?hl=en" target="_blank"><img src="https://i.ibb.co/j6sTWWB/instagram.png" alt="Instagram"/></a></li>  
+                        <li><a href="https://twitter.com/visualskies" target="_blank"><img class="socialImg" src="https://i.ibb.co/S5nDsYJ/twitter-1.png" alt="Twitter"></a></li>
+                        <li><a href="https://www.facebook.com/visualskies" target="_blank"><img class="socialImg" src="https://i.ibb.co/yY5wZtR/facebook.png" alt="Facebook"></a></li>
+                        <li><a href="https://vimeo.com/visualskies" target="_blank"><img class="socialImg" src="https://i.ibb.co/47qxhw6/iconfinder-Rounded-Vimeo-svg-5282550.png" alt="Vimeo"></a></li>
+                        <li><a href="https://www.linkedin.com/company/visualskies-ltd" target="_blank"><img class="socialImg" src="https://i.ibb.co/WDRjLBg/linkedin.png" alt="linkedin"></a></li>
+                        <li><a href="https://www.instagram.com/visualskies_ltd/?hl=en" target="_blank"><img class="socialImg" src="https://i.ibb.co/j6sTWWB/instagram.png" alt="Instagram"></a></li>  
                     </ul>
                 </div>
-            </heading>
+            </header>
 <!-- Heading End -->
 <!-- Container for main content body -->
             <div id="container"> 
@@ -60,7 +73,9 @@
                         <a><img src="https://i.ibb.co/qRdCbhM/Augmented-Reality.png" alt="Augmented-Reality"></a>
                     </div>
                 <div class="line"></div> <!-- 2nd Line Breaker -->
+                <div class="banner">
                     <img src="https://i.ibb.co/xjXLyGX/Visual-Skies-Background.png" alt="Image of a building site" id="main-banner">
+                </div>
                     <div class="one-col">
                         <h2>COVID-19 AND THE FUTURE OF
                             SITE MONITORING</h2>
@@ -134,7 +149,7 @@
                                     minimum.</p>
                         </div>
                         <div class="line"></div> <!-- 3rd Line Breaker -->
-<!--Equipment-->        <div src="Equipment">
+<!--Equipment-->        <div class="Equipment">
                             <a><img src="https://i.ibb.co/1zzKVPH/DJI-Matrice-90.png" alt="DJI-Matrice-90"></a>
                             <a><img src="https://i.ibb.co/CmZvKgw/Geo-Slam-Horizon-Z50.png" alt="Geo-Slam-Horizon-Z50"></a>
                             <a><img src="https://i.ibb.co/TcH3WfW/Leica-p50.png" alt="Leica-p50"></a>
