@@ -3,44 +3,82 @@
     <header>
         <title></title>
         <style>
+            body {
+              max-width: 800px;
+              margin: 0 auto;
+            }
+            header {
+              width: 95%
+            }
+            #VS-logo {
+              margin: 2% 0% 0% 3%;
+              width: 200px;
+              float: left;
+            }
+            #callout {
+              float: right;
+              margin: 0% 2% 1% 0;
+            }
+            .social {
+              float: right;
+              list-style-type: none;
+              margin-top: 8%;
+            }
+            .social li {
+              display: inline-block;
+            }
+            .socialImg {
+                width: 40px;
+            }
             .line {
               clear: both;
               height: 2px;
               background-color: black;
               margin: 4% auto;
             }
+            .row {
+                display: flex;
+        
+            }
+            .Six-Col {
+              background-color: grey;
+            }
+            img {
+                max-width: 100%;
+            }
         </style>
     </header>
     <body>
         <div id="wrapper">
 <!-- Heading Start -->
-            <heading>
+            <header>
                 <div id="logo"> <!-- Container for Logo -->
-                    <img src="https://i.ibb.co/QQzQrDZ/VS-Master-Logo-BW.png" alt="VS-Master-Logo-BW">
+                    <img id="VS-logo" src="https://i.ibb.co/QQzQrDZ/VS-Master-Logo-BW.png" alt="VS-Master-Logo-BW">
                 </div>
-                <div id="social-button"> <!-- Container for Social Media -->
+                <div id="callout"> <!-- Container for Social Media -->
                     <ul class="social"> <!-- Class for all list elements -->
-                        <li><a href="https://twitter.com/visualskies" target="_blank"><img src="https://i.ibb.co/S5nDsYJ/twitter-1.png" alt="Twitter"/></li>
-                        <li><a href="https://www.facebook.com/visualskies" target="_blank"><img src="https://i.ibb.co/yY5wZtR/facebook.png" alt="Facebook"/></a></li>
-                        <li><a href="https://vimeo.com/visualskies" target="_blank"><img src="https://i.ibb.co/47qxhw6/iconfinder-Rounded-Vimeo-svg-5282550.png" alt="Vimeo"/></a></li>
-                        <li><a href="https://www.linkedin.com/company/visualskies-ltd" target="_blank"><img src="https://i.ibb.co/WDRjLBg/linkedin.png" alt="linkedin"/></a></li>
-                        <li><a href="https://www.instagram.com/visualskies_ltd/?hl=en" target="_blank"><img src="https://i.ibb.co/j6sTWWB/instagram.png" alt="Instagram"/></a></li>  
+                        <li><a href="https://twitter.com/visualskies" target="_blank"><img class="socialImg" src="https://i.ibb.co/g4fvFSy/twitter-2.png" alt="Twitter"></a></li>
+                        <li><a href="https://www.facebook.com/visualskies" target="_blank"><img class="socialImg" src="https://i.ibb.co/9TtpXhV/facebook-2.png" alt="Facebook"></a></li>
+                        <li><a href="https://vimeo.com/visualskies" target="_blank"><img class="socialImg" src="https://i.ibb.co/cxHTKny/vimeo.png" alt="Vimeo"></a></li>
+                        <li><a href="https://www.linkedin.com/company/visualskies-ltd" target="_blank"><img class="socialImg" src="https://i.ibb.co/GRzn90b/linkedin-1.png" alt="linkedin"></a></li>
+                        <li><a href="https://www.instagram.com/visualskies_ltd/?hl=en" target="_blank"><img class="socialImg" src="https://i.ibb.co/X22G73Z/instagram-1.png" alt="Instagram"></a></li>  
                     </ul>
                 </div>
-            </heading>
+            </header>
 <!-- Heading End -->
 <!-- Container for main content body -->
             <div id="container"> 
                 <div class="line"></div> <!-- 1st Line Breaker -->
-<!--Services-->     <div src="Services">
-                        <a><img src="https://i.ibb.co/D1fSdyd/Photo-and-Video.png" alt="Photo-and-Video"></a>
-                        <a><img src="https://i.ibb.co/PZdxj07/Time-Lapse.png" alt="Time-Lapse"></a>
-                        <a><img src="https://i.ibb.co/X37pMN4/3d-Scanning-1.png" alt="3d-Scanning-1"></a>></a>
-                        <a><img src="https://i.ibb.co/S6HJYx9/VR.png" alt="VR"></a>
-                        <a><img src="https://i.ibb.co/qRdCbhM/Augmented-Reality.png" alt="Augmented-Reality"></a>
+<!--Equipment-->    <div class="row" alt="equipment">
+                        <a><img class="column" src="https://i.ibb.co/1zzKVPH/DJI-Matrice-90.png" alt="DJI-Matrice-90"></a>
+                        <a><img class="column" src="https://i.ibb.co/CmZvKgw/Geo-Slam-Horizon-Z50.png" alt="Geo-Slam-Horizon-Z50"></a>
+                        <a><img class="column" src="https://i.ibb.co/TcH3WfW/Leica-p50.png" alt="Leica-p50"></a>
+                        <a><img class="column" src="https://i.ibb.co/pP45y6F/Dji-Inspire-2.png" alt="Dji-Inspire-2"></a>
                     </div>
                 <div class="line"></div> <!-- 2nd Line Breaker -->
+                <div class="banner">
                     <img src="https://i.ibb.co/xjXLyGX/Visual-Skies-Background.png" alt="Image of a building site" id="main-banner">
+                </div>
                     <div class="one-col">
                         <h2>COVID-19 AND THE FUTURE OF
                             SITE MONITORING</h2>
@@ -114,15 +152,33 @@
                                     minimum.</p>
                         </div>
                         <div class="line"></div> <!-- 3rd Line Breaker -->
-<!--Equipment-->        <div src="Equipment">
-                            <a><img src="https://i.ibb.co/1zzKVPH/DJI-Matrice-90.png" alt="DJI-Matrice-90"></a>
-                            <a><img src="https://i.ibb.co/CmZvKgw/Geo-Slam-Horizon-Z50.png" alt="Geo-Slam-Horizon-Z50"></a>
-                            <a><img src="https://i.ibb.co/TcH3WfW/Leica-p50.png" alt="Leica-p50"></a>
-                            <a><img src="https://i.ibb.co/pP45y6F/Dji-Inspire-2.png" alt="Dji-Inspire-2"></a>
-                        </div>
+<!--Services-->             <div class="Services">
+                                <a><img src="https://i.ibb.co/D1fSdyd/Photo-and-Video.png" alt="Photo-and-Video"></a>
+                                <a><img src="https://i.ibb.co/PZdxj07/Time-Lapse.png" alt="Time-Lapse"></a>
+                                <a><img src="https://i.ibb.co/X37pMN4/3d-Scanning-1.png" alt="3d-Scanning-1"></a>></a>
+                                <a><img src="https://i.ibb.co/S6HJYx9/VR.png" alt="VR"></a>
+                                <a><img src="https://i.ibb.co/qRdCbhM/Augmented-Reality.png" alt="Augmented-Reality"></a>
+                            </div>
                         <div class="line"></div> <!-- 4th Line Breaker -->
 <!-- Company and services info -->
                         <div class="line"></div> <!-- 5th Line Breaker -->
+<!-- clients -->            <div class="Six-Col">
+                                <img src="https://i.ibb.co/zR0CmCN/VS-CLIENT-WARNER-1.png" alt="VisualSkies Client Warner Brothers">
+                                <img src="https://i.ibb.co/sJBBQ1t/VS-CLIENT-VICE-3.png" alt="VisualSkies Client Vice">
+                                <img src="https://i.ibb.co/crPFzhv/VS-CLIENT-LAING.png" alt="VisualSkies Client Laing">
+                                <img src="https://i.ibb.co/MCPjT7D/VS-CLIENT-HBO-1.png" alt="VisualSkies Client HBO">
+                                <img src="https://i.ibb.co/ZSr6tLv/VS-CLIENT-VICE-2.png" alt="VisualSkies Client Disney">
+                                <img src="https://i.ibb.co/BnKNK1w/VS-CLIENT-AVR.png" alt="VisualSkies Client AVR London">
+                            </div>
+                            <div class="Six-Col">
+                                <img src="https://i.ibb.co/yf0C0nk/VS-CLIENT-A2.png" alt="VS-CLIENT-A2">
+                                <img src="https://i.ibb.co/SdngG7n/VS-CLIENT-ASSAEL.png" alt="Visual Skies Client Assaels">
+                                <img src="https://i.ibb.co/6YVsX4j/VS-CLIENT-PC.png" alt="Visual Skies Palmer Capital">
+                                <img src="https://i.ibb.co/R0HPnLC/VS-CLIENT-ahmm.png" alt="VisualSkies Client Allford Hall">
+                                <img src="https://i.ibb.co/Lx0XF94/VS-CLIENT-NAT-GEO.png" alt="National Geographic">
+                                <img src="https://i.ibb.co/JHk93R4/channel-4-copy.png" alt="VisualSkies Client Channel 4">
+                            </div>
+                        <div class="line"></div> <!-- 6th Line Breaker -->
 <!-- Footer -->         <footer>
                             <div class="Locations">
                                 <h4>VISUALSKIES WEST</h4>
